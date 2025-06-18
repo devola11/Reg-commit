@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background: white;
+      }
+      section {
+        width: 300px;
+        height: 200px;
+        padding: 30px;
+        margin-top: 100px;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px;
+        border: none;
+      }
+      form {
+        padding: 10px;
+      }
+      h1 {
+        text-align: center;
+        color: black;
+        font-family: analdus;
+        font-weight: 30%;
+      }
+      input {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <h1>Login Form</h1>
+        <p>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </p>
+        <p>
+            <label for="remember">
+          <input type="checkbox" name="remember" id="remember" />
+          Remember
+          </label>
+        </p>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </body>
+</html>

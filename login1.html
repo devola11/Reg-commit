@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        body{
+            background: green;
+            justify-content: center;
+        }
+        section{
+            width: 300px;
+            height: 200px;
+            padding: 30px;
+            margin-left: 400px;
+            margin-top: 200px;
+            box-shadow: 1px 2px 3px;
+            border: navajowhite;
+            background: white;
+        }
+        input{
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 12px;
+            color: black;
+            border: 1px solid;
+            font-size: 14px;
+        }
+        ::placeholder{
+            color: grey;
+        }
+        button{
+            padding: 11px;
+            width: 88%;
+            background: lightgreen;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            margin-left: 11px;
+            margin-right: 50px;
+            border: none;
+            cursor: pointer;
+        }
+        small{
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: grey;
+        }
+        a{
+            text-decoration: none;
+            color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">LOGIN</button>
+        <small>Not registered?<a href="#">Create an account</a></small>
+    </section>
+</body>
+</html>
