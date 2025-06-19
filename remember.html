@@ -10,14 +10,13 @@
       }
       section {
         width: 300px;
-        height: 200px;
+        height: 250px;
         padding: 30px;
         margin-top: 100px;
         margin-left: 400px;
         margin-right: 400px;
         border-radius: 2px;
-        box-shadow: 1px 1px 1px;
-        border: none;
+        box-shadow: 4px 2px 2px black;
       }
       form {
         padding: 10px;
@@ -28,8 +27,27 @@
         font-family: analdus;
         font-weight: 30%;
       }
-      input {
+      input[type=], input[type=password] {
         display: block;
+        padding: 6px;
+        width: 92%;
+      }
+      div{
+        display: flex;
+      }
+      label{
+        display: block;
+      }
+      button{
+        text-align: center;
+        width: 95%;
+        background: blue;
+        color: white;
+        border: none;
+        padding: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: px;
       }
     </style>
   </head>
@@ -57,12 +75,12 @@
             required
           />
         </p>
-        <p>
-            <label for="remember">
+
+        <div>
           <input type="checkbox" name="remember" id="remember" />
           Remember
-          </label>
-        </p>
+        </div>
+
         <button type="submit">Login</button>
       </form>
     </section>

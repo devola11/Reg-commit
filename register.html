@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        padding: 0 2%;
+        box-shadow: 3px 3px 3px lightgray;
+      }
+      .logo {
+        flex: 1;
+      }
+      .links {
+        flex: 2;
+      }
+      .logo img {
+        width: 25%;
+      }
+      .links ul li{
+        list-style: none;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 50px;
+      }
+      .links ul li a{
+        color: rgb(57, 111, 57);
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      /* nav{
+            background: lightblue;
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- Types of selector -->
+    <!-- 1. Universal Selector -->
+    <!-- <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+      </nav> -->
+
+    <!-- 2. Class Selector  -->
+    <nav>
+      <div class="logo">
+        <img src="image/logo.jpg" alt="" />
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
