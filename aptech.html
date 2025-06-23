@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aptech website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: black;
+      }
+      nav {
+       display: flex;
+        background: rgb(0, 0, 0);
+        padding: 2%;
+        border-radius: 12px;
+        margin: 1% 5%;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #logo img {
+        width: 50%;
+      }
+      #links ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 30px;
+      }
+      #links ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: anadalus;
+        padding: 3%;
+      }
+      #link ul li a:hover {
+        background: rgb(255, 238, 0);
+        color: black;
+      }
+      #btn button {
+        border: none;
+        padding: 6px;
+        width: 100%;
+        border-radius: 12px;
+        color: black;
+        background: rgb(255, 162, 0);
+        cursor: pointer;
+      }
+      #btn button:hover {
+        background: transparent;
+        color: white;
+        border: 2px solid rgb(255, 174, 0);
+      }
+      main {
+        border-radius: 12px;
+        background: rgb(128, 128, 128);
+        width: 1060px;
+        height: 260px;
+        align-items: center;
+        padding: 10%;
+        margin: 2% 5%;
+        text-align: center;
+      }
+      .bottom button {
+        border: none;
+        padding: 12px;
+        width: 25%;
+        border-radius: 4px;
+        color: black;
+        background: rgb(255, 162, 0);
+        cursor: pointer;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <img src="image/aptech-logo.png" alt="aptech-logo" />
+      </div>
+      <div id="links">
+        <ul>
+          <li><a href="#">Progress</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Corperate</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div id="btn">
+        <button>Enroll Now</button>
+      </div>
+    </nav>
+    <main>
+      <div class="top">
+        <span>Best IT Institute in Nigeria</span>
+      </div>
+      <div class="center">
+        <h1>Where Dreams Transform into Tech Realities</h1>
+        <p>
+          Choose from a variety of learning formats, including in-person classes
+          and online courses.
+        </p>
+      </div>
+      <div class="bottom">
+        <button>Get Free Consultation</button>
+      </div>
+    </main>
+  </body>
+</html>

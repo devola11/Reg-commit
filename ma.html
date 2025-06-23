@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: black;
+      }
+      .navbar {
+        display: flex;
+        background: white;
+        border-radius: 4px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px;
+      }
+      .logo {
+        width: auto;
+      }
+      .links ul li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 30px;
+      }
+      .links ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: analdalus;
+        padding: 2%;
+      }
+      .links ul li a:hover {
+        background: rgb(135, 235, 227);
+        color: black;
+      }
+      main {
+        background: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        height: 600px;
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 10px;
+      }
+      .top {
+        color: whitesmoke;
+        padding: 10px;
+        font-weight: bold;
+      }
+      .center {
+        text-align: center;
+        color: white;
+        font-size: x-small;
+      }
+      .btn {
+        padding: 10px;
+        width: 100%;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      .btn:hover{
+        background: whitesmoke;
+        cursor: pointer;
+        border: solid rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="image/circle-logo.jpg" alt="logo" width="50" height="50" />
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="top">
+        <h1>Passionate Software Engineer</h1>
+      </div>
+
+      <div class="center">
+        <p>
+          I'm a passionate front-end web developer,blending creativity and
+          technology to craft <br />
+          stunning websites that feel like they're from another dimension .<br />Explore
+          my projects to see how I harness the power of technologies <br />
+          to deliver better user experiences that are truly out of this world!.
+          <br />
+          Let's turn ideas into reality,one pixel at a time!
+        </p>
+      </div>
+      <div class="btn">
+        <button type="button">Resume</button>
+      </div>
+    </main>
+  </body>
+</html>

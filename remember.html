@@ -27,18 +27,19 @@
         font-family: analdus;
         font-weight: 30%;
       }
-      input[type=], input[type=password] {
+      input[type=],
+      input[type="password"] {
         display: block;
         padding: 6px;
         width: 92%;
       }
-      div{
+      div {
         display: flex;
       }
-      label{
+      label {
         display: block;
       }
-      button{
+      button {
         text-align: center;
         width: 95%;
         background: blue;
@@ -55,26 +56,22 @@
     <section>
       <form action="">
         <h1>Login Form</h1>
-        <p>
-          <label for="username">Username:</label>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="Enter your username"
-            required
-          />
-        </p>
-        <p>
-          <label for="password">Password:</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Enter your password"
-            required
-          />
-        </p>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+          required
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
 
         <div>
           <input type="checkbox" name="remember" id="remember" />
