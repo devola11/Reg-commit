@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: lightblue;
+      }
+      .form-container {
+        background: white;
+        border-radius: 5px;
+        width: 350px;
+        box-shadow: 2px 2px 10px black;
+        overflow: hidden;
+      }
+      .form-header {
+        background: darkblue;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+      }
+      .form-body {
+        padding: 20px;
+      }
+      .form-body label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .form-body input {
+        width: 95%;
+        padding: 6px;
+      }
+      .form-body select {
+        width: 100%;
+        padding: 6px;
+      }
+      .form-body .row {
+        display: flex;
+        gap: 15px;
+      }
+      button{
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: white;
+        background: indigo;
+        margin-top: 5px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-header">
+        <h1>Registration Form</h1>
+      </div>
+      <form class="form-body">
+        <div class="row">
+          <div class="group">
+            <label for="FirstName">FirstName</label>
+            <input type="text" />
+          </div>
+          <div class="group">
+            <label for="LastName">LastName</label>
+            <input type="text" />
+          </div>
+        </div>
+        <label for="email">Email Address</label>
+        <input type="email" />
+        <label for="phone">Phone Number</label>
+        <input type="text" />
+        <div class="row">
+          <div class="group">
+            <label for="City">City</label>
+            <select>
+              <option>select your city</option>
+            </select>
+          </div>
+          <div class="group">
+            <label for="Country">Country</label>
+            <select>
+              <option>select your Country</option>
+            </select>
+          </div>
+        </div>
+        <button>Get Started</button>
+      </form>
+    </div>
+  </body>
+</html>
