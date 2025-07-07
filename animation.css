@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    padding: 2% 5%;
+    gap: 2%;
+}
+.one, .second, .third{
+    background: rgb(173, 228, 230);
+    padding: 3%;
+}
+.one:hover{
+    rotate: 23deg;
+    transition: 4s;
+}
+.second:hover{
+    transform: translateY(67px);
+}
+.third:hover{
+    transform: scale(0.6);
+}

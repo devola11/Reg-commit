@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f7f3ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  height: 530px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #3c1e0c;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 14px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 42px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin: 10px 0 20px;
+}
+
+.options a {
+  color: #3a84ff;
+  text-decoration: none;
+}
+
+.signin-btn {
+  width: 100%;
+  background: #4b2109;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: #888;
+  font-size: 14px;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.fingerprint-btn {
+  width: 100%;
+  background: #f2f2f2;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fingerprint-btn i {
+  margin-right: 8px;
+  color: #0c78ff;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  margin-left: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color:#4b1f06f8;
+    cursor: pointer;
+}

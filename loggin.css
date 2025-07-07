@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    display: flex;
+    background: lightblue;
+}
+.log-box{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    width: 300px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.group{
+    margin-bottom: 20px;
+    position: relative;
+}
+i{
+    color: #777;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+input{
+    width: 80%;
+    padding: 10px 10px 10px 35px;
+}
+button{
+     width: 98%;
+     padding: 14px;
+     background-color: rgb(173, 225, 230);
+     color: rgb(10, 1, 1);
+     font-size: 16px;
+     font-family: tahoma;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     transition: background-color 0.3s 
+}
