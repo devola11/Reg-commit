@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    padding: 4% 8%;
+    gap: 2%;
+}
+.left img{
+    border-radius: 8px;
+}
+.left{
+    animation: slideFromLeft .5s infinite;
+}
+.right h1{
+    font-family: tahoma;
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(to right,#ff416c,#ff416c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+}
+.right h5{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right h5 span{
+    color: #0099ff;
+}
+.right p{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.right button{
+    padding: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #0099ff;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 20%;
+    cursor: pointer;
+}
+.right{
+    animation:  slideFromRight .5s infinite;
+}
+@keyframes slideFromRight{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft{
+    0%{
+        transform: translateX(-100);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
