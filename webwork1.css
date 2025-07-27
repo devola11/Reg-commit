@@ -1,18 +1,18 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f8f1e7;
   color: #333;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ body {
   border-radius: 50px;
 }
 
-/* Hero Section */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -69,7 +69,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Form */
+
 .address-form {
   display: flex;
   align-items: center;
@@ -97,7 +97,7 @@ body {
   outline: none;
 }
 
-/* Submit Button */
+
 .address-form button {
   padding: 9px 15px;
   background-color: black;
@@ -108,7 +108,7 @@ body {
   font-size: 1.2em;
 }
 
-/* Hero Image */
+
 .hero-image img {
   height: auto;
   margin-right: 300px;
